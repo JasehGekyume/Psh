@@ -5,17 +5,13 @@
 .navbar {
   box-shadow: 2px 2px 5px #000;
 }
-.navbar .navbar-nav .nav-item{
-  color:#ffff;
 
-
-}
 .main-header {
   position: relative;	
   background: url(img/72694269_2405125649609626_4445328831108087808_n.jpg);
   background-size: cover;
   min-height: 500px;
-  margin-top: 31px;
+  margin-top: 30px;
 }
 .background-overlay {
 	position: absolute;
@@ -35,4 +31,8 @@
 
 .team {
 	margin-top: 50px;
+}
+
+#ct-img {
+	height: 400px;
 }
