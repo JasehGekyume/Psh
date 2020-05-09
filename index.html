@@ -8,24 +8,28 @@
   <script src="https://kit.fontawesome.com/73d53d0848.js" crossorigin="anonymous"></script>
   <!--bootstrap online-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--SCROLLREVEAL-->
+  <script src="https://unpkg.com/scrollreveal"></script>
 
   <title>Bootstrap webside</title>
 </head>
 <body>
   <!-- NAVEGACION  -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="height: 50px">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="img\logo.jpg" alt="logo De XXXTENTACION" style="width:7%;">
+      <img src="img\logo1.jpg" alt="logo De XXXTENTACION" style="width:4%; ">
     </a>
+     <a class="navbar-brand" href="#">Bootstrap Webside</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Team</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#team">Team</a>
+        <a class="nav-item nav-link" href="#contacto">Contact</a>
       </div>
     </div>
   </div>
@@ -38,21 +42,25 @@
      <div class="container">
        <div class="row">
          <div class="col-md-6 text-center justify-content-center align-self-center">
-           <h1>Este es un titulo o una frase relacionada a la web</h1>
+           <div class="header-content-left">
+             <h1>Este es un titulo o una frase relacionada a la web</h1>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, assumenda.</p>
-           <a href="#" class="btn btn-outline-secondary btn-lg text-white">Leer Mas</a>
+           <a href="#" class="btn btn-outline-secondary btn-lg text-white header-btn">Leer Mas</a>
+           </div>
          </div>
          <div class="col-md-6">
-           <img src="img\rapero-xxxtentacion.jpg"
+           <div class="header-content-right">
+             <img src="img\rapero-xxxtentacion.jpg"
             alt="XXXTENTACION" class="img-fluid d-none d-sm-block">
+           </div>
          </div>
        </div>
      </div>
    </div>
 </header>
 <!-- NEWSLETTER  -->
-<section class="bg-dark text-white py-5">
-  <div class="container">
+<section  class="bg-dark text-white py-5">
+  <div id="about"  class="container">
     <div class="row">
       <div class="col-md-4">
         <input type="text" class="form-control from-control-lg" placeholder="Ingrese su nombre">
@@ -72,8 +80,8 @@
 <!-- CARACTERISTICAS  -->
 
  <section class="py-5">
-   <div class="container">
-     <div class="row">
+   <div class="container ">
+     <div class="row ">
        <div class="col-md-3">
          <div class="card text-center border-primary">
            <div class="card-body">
@@ -122,7 +130,7 @@
  </section>
 
  <!--  ACORDEON  -->
- <section class="container text-center p-5">
+ <section class="container text-center p-2">
   <div class="row">
     <div class="accordion" id="accordionExample">
   <div class="card">
@@ -173,10 +181,10 @@
 
 <!--  EQUIPO  -->
 
-<section class="team text-center">
-  <div class="container p-5">
+<section  id="team" class="team text-center">
+  <div  class="container p-5">
     <h1 class="text-white">Equipo</h1>
-    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolorum.</p>
+    <p class="text-white">Siguenos en nuestras redes sociales.</p>
     <div class="row">
       <!--  MIEBRO  -->
       <div class="col-lg-3">
@@ -214,7 +222,7 @@
               <p>Lorem ipsum dolor sit amet.</p>
                 <div class="d-flex flex-row justify-content-center">
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://www.facebook.com/valery.mejias.75?epa=SEARCH_BOX" target="_blank">
                      <i class="fab fa-facebook-f"></i>
                    </a>           
                   </div>
@@ -241,17 +249,17 @@
               <p>Lorem ipsum dolor sit amet.</p>
                 <div class="d-flex flex-row justify-content-center">
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://www.facebook.com/yomarjose.parragonzalez" target="_blank">
                      <i class="fab fa-facebook-f"></i>
                    </a>
                   </div>
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://twitter.com/Yomario_14" target="_blank">
                      <i class="fab fa-twitter"></i>
                    </a>
                   </div>
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://www.instagram.com/yomar_vzla/" target="_blank">
                      <i class="fab fa-instagram"></i>
                    </a>
                   </div>
@@ -268,17 +276,17 @@
               <p>Lorem ipsum dolor sit amet.</p>
                 <div class="d-flex flex-row justify-content-center">
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://www.facebook.com/BadVibezForever/" target="_blank">
                      <i class="fab fa-facebook-f"></i>
                    </a>
                   </div>
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://twitter.com/xxxtentacion?lang=es"  target="_blank">
                      <i class="fab fa-twitter"></i>
                    </a>
                   </div>
                   <div class="p-4">
-                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                   <a href="https://www.instagram.com/xxxtentacion/" target="_blank">
                      <i class="fab fa-instagram"></i>
                    </a>
                   </div>
@@ -291,13 +299,14 @@
 </section>
 
 <!-------------------     CONTACTO      ------------------------------->
-
- <section class="bg-light py-5" >
-   <div class="container">
+<div  id="contacto" class="container py-5">
+      <h3 class="text-center">Contactanos</h3>
+      <p class="text-center">Lorem ipsum dolor sit amets.</p>
+</div>
+ <section class="bg-light" >
+   <div  class="container">
      <div class="row">
        <div class="col-lg-9">
-         <h3 class="text-center">Contactanos</h3>
-         <p class="text-center">Lorem ipsum dolor sit amets.</p>
          <form action="">
            <div class="input-group mb-3">
              <div class="input-group-prepend input-group-text">
@@ -322,12 +331,12 @@
          </form>
        </div>
        <div class="col-lg-3 align-self-center">
-         <img src="img/logo.jpg"alt="Logo XXXTENTACION" class="img-fluid">
+         <img src="img/logo1.jpg"alt="Logo XXXTENTACION" class="img-fluid">
        </div>
      </div>
    </div>
  </section>
-
+<!----  PIE DE PAGINA  ----->
  <section>
    <footer>
      <div class="container p-3 text-center text-white">
@@ -347,5 +356,51 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+<!--SCRIPTS-->
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+    duration:2000,
+    origin:'bottom',
+    distance:'50px' 
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.header-content-left', {
+    duration:2000,
+    origin:'left',
+    distance:'300px' 
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.header-content-right', {
+    duration:2000,
+    origin:'right', 
+    distance:'300px'
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('.header-btn', {
+    duration:2000,
+    origin:'bottom', 
+    delay:1000
+    });
+    window.sr = ScrollReveal();
+    sr.reveal('#about', {
+    duration:2000,
+    origin:'bottom', 
+    delay:1000
+    });
+
+  </script>
+  
+<!--SMOTH SCROLLING-->
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 </body>
 </html>

@@ -4,7 +4,6 @@
 
 .navbar {
   box-shadow: 2px 2px 5px #000;
-  opacity: .8;
 }
 .navbar .navbar-nav .nav-item{
   color:#ffff;
@@ -13,13 +12,14 @@
 }
 .main-header {
   position: relative;	
-  background: url(img/Xxx_.jpg);
+  background: url(img/72694269_2405125649609626_4445328831108087808_n.jpg);
   background-size: cover;
   min-height: 500px;
+  margin-top: 30px;
 }
 .background-overlay {
 	position: absolute;
-	background:rgba(55, 66, 250,.6); 
+	background:rgba(55, 66, 250,.7); 
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -31,4 +31,8 @@
 
 .team, footer{
 	background: var(--color-primario);
+}
+
+.team {
+	margin-top: 50px;
 }
